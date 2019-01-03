@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.get('/alise', function (req, res) {
+app.post('/alise', function (req, res) {
   res.send({ response: "done" , req: req.query });
 });
 app.listen(8400, function () {
