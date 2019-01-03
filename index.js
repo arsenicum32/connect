@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/alise', function (req, res) {
-  res.send({ response: "done" , req: ...req.query });
+  res.send({ response: "done" , req: req.query });
 });
 app.listen(8400, function () {
   console.log('Example app listening on port 8400!');
